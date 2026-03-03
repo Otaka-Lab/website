@@ -1,20 +1,26 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #f4f6f8;
-  color: #333;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f8f9fb;
+  color: #222;
+  line-height: 1.6;
 }
 
 header {
-  background-color: #0a1f44;
+  background: linear-gradient(135deg, #0a1f44, #102c66);
   color: white;
-  padding: 30px;
+  padding: 40px 20px;
   text-align: center;
 }
 
+header h1 {
+  margin: 0;
+  font-size: 2.2em;
+  letter-spacing: 1px;
+}
+
 header p {
-  margin: 5px 0 15px;
-  font-size: 1.1em;
+  margin: 10px 0 20px;
   opacity: 0.8;
 }
 
@@ -22,20 +28,36 @@ nav a {
   color: white;
   margin: 0 15px;
   text-decoration: none;
+  font-weight: 500;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid white;
 }
 
 .hero {
-  text-align: center;
-  padding: 100px 20px;
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.hero h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  border-left: 5px solid #102c66;
+  padding-left: 10px;
+}
+
+.hero h3 {
+  margin-top: 40px;
+  color: #102c66;
 }
 
 footer {
   background-color: #0a1f44;
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
+  margin-top: 80px;
+  font-size: 0.9em;
 }
