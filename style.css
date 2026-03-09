@@ -163,4 +163,7 @@ border-radius:10px;
 width:120px;
 display:block;
 margin:0 auto 20px;
+
+filter: drop-shadow(0 0 10px #60a5fa)
+        drop-shadow(0 0 20px #3b82f6);
 }
