@@ -203,3 +203,24 @@ to{
 transform: rotate(360deg);
 }
 }
+
+.main-header {
+  display: flex;
+  align-items: center; 
+  position: relative;
+  z-index: 10;
+}
+
+.title-text {
+  flex-grow: 1;
+  padding-left: 20px; /* ロゴとテキストの間に余白を作ります */
+}
+
+.title-text h1, 
+.title-text p {
+  margin: 0;
+}
+
+.logo-container img {
+  max-width: 80px; /* ロゴの大きさを制限します */
+}
